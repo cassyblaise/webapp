@@ -1,0 +1,287 @@
+body{
+    font-family: 'open-san' sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.primary-text{
+    color: #5566aa;
+}
+.primary-background{
+    background: #5566aa;
+}
+
+/*Header*/
+#main-header{
+    border-bottom: 5px solid #5566aa;
+    background: #fff;
+    width: 100%;
+}
+
+#navbar{
+    text-transform: uppercase;
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #5566aa;
+}
+
+#navbar li.current a, #navbar a:hover{
+    color: #5566aa;
+    border-bottom: 3px solid #5566aa;
+    padding-bottom: 3px;
+}
+
+/*Showcase*/
+#showcase{
+    background:url('../images/artificial-intelligence-code-codes-34676.jpg') no-repeat center center;
+   /* background-attachment: fixed;
+    background-position: center;*/
+    background-size: cover;
+    border-bottom: 5px solid #5566aa;
+    margin-bottom: 30px;
+}
+
+#showcase .row{
+    height: 600px;
+}
+#showcase h1{
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#showcase p{
+    color: #ccc;
+    margin: 0;
+}
+#showcase .showcase-content{
+    background: #333;
+    color: #fff;
+    border-radius:90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+/*company service*/
+ #services h1{
+     font-size: 35px;
+     margin: 10px;
+     padding-bottom: 15px;
+ }
+ #services h4{
+     font-size: 25px;
+ }
+ #services p{
+     font-size: 23px;
+     color: #888;
+     margin: 0;
+     margin-bottom: 50px;
+ }
+
+ #services .fas{
+     font-size: 60px;
+     color:#5566aa;
+ }
+
+ /* Company mission(Choose us)*/
+#choose-us{
+     background: #5566aa;
+     color: #fff;
+     padding: 5px;
+     border:#cccccc solid 1px;
+     margin: 10;
+     width: 100%;
+ }
+#choose-us p{
+     font-size: 20px;
+     margin: 10;
+     margin-bottom: 5px;
+     padding: 5px;
+ }
+ #choose-us h1{
+     font-size: 35px;
+     padding-top: 15px;
+     padding-bottom: 5px;
+     margin: 0;
+ }
+ #choose-us h4{
+     font-size: 25px;
+ }
+
+ #info{
+     background: #333 url()no-repeat;
+     color:#fff;
+     margin: 1px;
+     padding: 1px;
+ }
+
+ #info h1{
+    font-size: 35px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+ }
+
+ #info ul li{
+     list-style: none;
+     padding: 0;
+     line-height: 1em;
+     font-size: 30px;
+     text-align: left;
+ }
+ #info p{
+     font-size: 20px;
+ }
+
+ #company{
+     background: #333;
+     color: #fff;
+     padding: 10px 0;
+ }
+ #company h4{
+     text-transform: uppercase;
+     margin-bottom: 0;
+ }
+#company ul{
+     padding: 0;
+     list-style: none;
+     line-height: 2em;
+}
+#company input{
+    padding: 7px;
+}
+#company button{
+    background: #222;
+    border: 0px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 auto;
+}
+#company button:hover{
+  background-color:rgb(20, 20, 20);
+}
+.main-footer{
+    background: #5566aa;
+    color: #fff;
+}
+#page{
+    margin-bottom: 40px;
+}
+.services p{
+    font-size: 23px;
+}
+.services ul li{
+   list-style: none;
+   padding: 10px;
+}
+.services ul li:nth-child(odd){
+    background: #333;
+    color: #fff;
+}
+.services ul li:nth-child(even){
+    background: #5566aa;
+    color: #fff;
+}
+/*About Us*/
+.about p{
+     font-size: 23px;
+     color: #888;
+     margin: 3px;
+     margin-bottom: 30px;
+     padding: 2px;
+}
+#about-us{
+     background: #5566aa;
+     color: #fff;
+     padding: 5px;
+     border:#cccccc solid 1px;
+     margin: 10;
+     width: 100%;
+}
+#about-us p{
+     font-size: 20px;
+     margin: 10;
+     margin-bottom: 5px;
+     padding: 5px;
+ }
+ #about-us h1{
+     font-size: 30px;
+     padding-top: 15px;
+     padding-bottom: 5px;
+     margin: 0;
+ }
+ #about-us h4{
+     font-size: 25px;
+ }
+.contact form{
+    color: #fff;
+    background-color: #5566aa;
+    max-width: 920px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px #ccc;
+}
+.contact p {
+    color: #888;
+    font-size: 30px;
+}
+.contact form input{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.contact form textarea{
+    width: 50%;
+    height: 100px;
+}
+.contact form button{
+    width: 50%;
+    padding: 10px 0;
+    background: #35447e;
+    border-radius: 5px;
+    border: 0px solid;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1em;
+    margin: 10px;
+    height: 40px;
+}
+ .contact form button:hover{
+  background-color: #455181;
+  outline: 0;
+}
+.contact form label{
+    text-transform: uppercase;
+}
+/*Media Query*/
+@media(max-width: 800px){
+    #showcase h1{
+        font-size: 30px;
+    }
+}
+@media(max-width: 500px){
+    #showcase .showcase-content{
+        padding: 40px 10px;
+    }
+}
