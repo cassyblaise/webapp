@@ -98,8 +98,8 @@ img{
 
  #services h1 {
     font-size: 35px;
-    margin: 10px;
-    padding-bottom: 15px;
+    margin: 15px;
+    padding-bottom: 20px;
  }
  #services h4 {
     font-size: 25px;
@@ -107,8 +107,8 @@ img{
  #services p {
     font-size: 23px;
     color: #888;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     margin-bottom: 50px;
     width: 100%;
  }
