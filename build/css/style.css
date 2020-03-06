@@ -13,10 +13,11 @@ only screen and (min-device-pixel-ratio: 1.5){
   }
 
 }
- 
+
+html,
 body {
     font-family: 'open-sans', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -95,15 +96,15 @@ img{
 /*company service*/
 
  #services h1 {
-    font-size: 35px;
+    font-size: 25px;
     margin: 15px;
     padding-bottom: 20px;
  }
  #services h4 {
-    font-size: 25px;
+    font-size: 20px;
  }
  #services p {
-    font-size: 23px;
+    font-size: 20px;
     color: #888;
     margin: 0%;
     padding: 0%;
@@ -113,7 +114,7 @@ img{
 
  #services .fas{
     font-size: 60px;
-    color:#5566aa;
+    color:#3a4c98;
  }
 
 #services button{
@@ -155,7 +156,7 @@ img{
     padding: 5px;
  }
  #choose-us h1{
-    font-size: 35px;
+    font-size: 25px;
     padding-top: 15px;
     padding-bottom: 5px;
     margin: 0;
@@ -174,7 +175,7 @@ img{
  }
 
  #info h1{
-    font-size: 35px;
+    font-size: 25px;
     margin: 0;
     padding-top: 15px;
     padding-bottom: 10px;
@@ -259,13 +260,13 @@ img{
      padding: 5px;
  }
  #about-us h1{
-     font-size: 30px;
+     font-size: 25px;
      padding-top: 15px;
      padding-bottom: 5px;
      margin: 0;
  }
  #about-us h4{
-     font-size: 25px;
+     font-size: 20px;
  }
 .contact form{
     color: #fff;
