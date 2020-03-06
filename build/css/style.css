@@ -23,7 +23,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.5em;
-  
+    overflow-x: hidden;
 }
 
 .container{
@@ -342,6 +342,10 @@ img{
   transition: all ease-in-out 150ms;
 }
 
+.social-icons .fab:hover {
+  color: #455181;
+  outline: 0;
+}
 
 /*Media Query*/
 @media(max-width: 800px){
